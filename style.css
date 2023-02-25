@@ -1,0 +1,61 @@
+.container {
+    max-width: 1200px;
+    padding: 50px 15px 0;
+    margin: 0 auto;
+}
+.insert-name input {
+    width: 250px;
+    height: 38px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.insert-name button {
+    height: 40px;
+    padding: 0 50px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+}
+.insert-name button.remove-btn {
+    background-color: #f00;
+}
+.insert-name {
+    margin: 0 0 30px;
+}
+.store-name {
+    display: flex;
+    flex-wrap: wrap;
+}
+.store-name h2 {
+    width: 100%;
+}
+.added-name {
+    flex: 0 0 50%;
+    margin: 0 0 30px;
+}
+.sorted-name {
+    flex: 0 0 50%;
+    margin: 0 0 30px;
+}
+
+#sortedColleagues {
+    margin: 0 0 20px;
+    list-style: none;
+}
+#sortedColleagues li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+#sortedColleagues li.title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 30px;
+    display: inline-block;
+    border-bottom: 1px solid #333;
+}
