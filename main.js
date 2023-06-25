@@ -46,6 +46,7 @@ function sortbyName() {
 
 
 var addNewColleague = document.getElementById("addNewColleague")
+var removeColleagues = document.getElementById("removeColleagues")
 var sortColleagues = document.getElementById("sortColleagues")
 
 
@@ -61,3 +62,4 @@ removeColleagues.addEventListener('click', function () {
     colleagueslist.innerHTML= "";
     sortedColleaguelist.innerHTML= "";
 });
+
